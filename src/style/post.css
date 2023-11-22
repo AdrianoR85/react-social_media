@@ -1,0 +1,44 @@
+.post-container {
+  width: 400px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 1px 1px 4px 2px #00000094;
+  text-align: center;
+}
+
+.post-container h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.post-container .post-name {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-container small {
+  font-size: 14px;
+  font-style: italic;
+  text-align: end;
+}
+
+.post-container button {
+  margin: 0;
+  padding: 0px;
+  width: 25px;
+  font-size: 12px;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+
+.post-container button {
+  margin: 0;
+  padding: 0px;
+}

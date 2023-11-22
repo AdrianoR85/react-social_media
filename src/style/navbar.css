@@ -1,0 +1,11 @@
+nav ul a {
+  margin-right: 16px;
+  font-size: 20px;
+  padding: 4px 8px;
+  transition: all .3s ease-in-out;
+}
+
+nav ul a:hover {
+  box-shadow: 2px 2px 4px 2px #720a72;
+  border-radius: 8px;
+}

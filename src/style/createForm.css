@@ -1,0 +1,33 @@
+form {
+  display: grid;
+  gap: 10px;
+  min-width: 360px;
+  padding: 16px;
+  box-shadow: 1px 1px 4px 2px #00000094;
+}
+
+form, input, textarea {
+  border-radius: 4px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+form .error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+}
+form textarea {
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  margin: 0px auto;
+
+}
